@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomolhari&family=Love+Ya+Like+A+Sister&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Elite&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-body: Inter, sans-serif;
+  --font-heading: 'Playfair Display', serif;
+  --font-alt: Poppins, sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-jomolhari: 'Jomolhari', serif;
+  --font-love: 'Love Ya Like A Sister', cursive;
+  --font-type: 'Special Elite', monospace;
+
+  --color-ink: #14100c;
+  --color-ink-soft: #1e1914;
+  --color-cream: #faf6ef;
+  --color-gold: #c9a84c;
+  --color-gold-soft: #e8d9a9;
+  --color-rose: #b76e79;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 88px;
+}
+
+.jelly {
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+}
+
+.jelly.delay-1 {
+  animation-delay: 2s;
+}
+
+.jelly.delay-2 {
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fade-bg {
+  opacity: 0;
+}
+
+.fade-bg.is-visible {
+  opacity: 1;
+  transition: opacity 1.2s ease;
+}

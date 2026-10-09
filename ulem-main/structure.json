@@ -1,0 +1,88 @@
+{
+  "slug": "john-and-jane",
+  "theme": "elegant",
+  "cover": {
+    "images": ["https://example.com/images/cover1.jpg", "https://example.com/images/cover2.jpg"]
+  },
+  "bride": {
+    "name": "Jane Doe",
+    "images": ["https://example.com/images/jane1.jpg", "https://example.com/images/jane2.jpg"],
+    "father": "Mr. Smith",
+    "mother": "Mrs. Smith",
+    "notes": "Jane is the daughter of Mr. and Mrs. Smith. She is a talented artist and loves painting.",
+    "social_media": {
+      "instagram": "https://instagram.com/jane_doe",
+      "facebook": "https://facebook.com/jane.doe"
+    }
+  },
+  "groom": {
+    "name": "John Doe",
+    "images": ["https://example.com/images/john1.jpg", "https://example.com/images/john2.jpg"],
+    "father": "Mr. Doe",
+    "mother": "Mrs. Doe",
+    "notes": "John is the son of Mr. and Mrs. Doe. He is a software engineer and enjoys hiking.",
+    "social_media": {
+      "instagram": "https://instagram.com/john_doe",
+      "facebook": "https://facebook.com/john.doe"
+    }
+  },
+  "gallery": [
+    "https://example.com/images/gallery1.jpg",
+    "https://example.com/images/gallery2.jpg",
+    "https://example.com/images/gallery3.jpg"
+  ],
+  "events": [
+    {
+      "type": "akad",
+      "title": "Akad Nikah",
+      "date": "...",
+      "start_time": "10:00 AM",
+      "end_time": "11:00 AM",
+      "location": "Grand Mosque, City Center",
+      "locationUrl": "https://maps.google.com/?q=Grand+Mosque+City+Center",
+      "images": ["https://example.com/images/akad1.jpg", "https://example.com/images/akad2.jpg"]
+    },
+    {
+      "type": "reception",
+      "title": "Resepsi",
+      "date": "...",
+      "start_time": "6:00 PM",
+      "end_time": "10:00 PM",
+      "location": "Banquet Hall, City Hotel",
+      "locationUrl": "https://maps.google.com/?q=Banquet+Hall+City+Hotel",
+      "images": [
+        "https://example.com/images/reception1.jpg",
+        "https://example.com/images/reception2.jpg"
+      ]
+    }
+  ],
+  "gifts": [
+    {
+      "type": "bank",
+      "name": "...",
+      "accountNumber": "...",
+      "accountHolder": "..."
+    },
+    {
+      "type": "ewallet",
+      "platform": "Dana",
+      "accountNumber": "...",
+      "accountHolder": "..."
+    }
+  ],
+  "love_story": {
+    "stories": [
+      {
+        "title": "First Meet",
+        "date": "...",
+        "description": "...",
+        "image": "..."
+      }
+    ],
+    "video": "..."
+  },
+  "closing": {
+    "message": "Thank you for being a part of our special day. We are grateful for your love and support.",
+    "images": ["https://example.com/images/closing1.jpg", "https://example.com/images/closing2.jpg"]
+  }
+}
