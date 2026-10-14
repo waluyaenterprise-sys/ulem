@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { fade } from 'svelte/transition';
   import { formatIndonesianDate } from '$lib/utils/formatDate';
   import { fetchRsvps, formatRsvpTime, submitRsvp, type Rsvp, type RsvpPresence } from '$lib/rsvp';
   import Credit from '$lib/Credit.svelte';
